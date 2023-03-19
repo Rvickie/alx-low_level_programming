@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
+ * main - prints the phrase with proper grammer,
+ *but the outcome is a piece of art,
  *Return: Always 0 (Success)
  */
 int main(void)
