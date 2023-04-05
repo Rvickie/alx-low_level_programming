@@ -5,7 +5,7 @@
  * @accept: Input
  * @s: Input
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 unsigned int _strspn(char *accept, char *s)
 {
