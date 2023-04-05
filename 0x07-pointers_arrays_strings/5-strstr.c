@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * _strstr - Function that finds the first occurrence
- * of the substring
- * @needle: Input
+ * _strstr - Entry point
  * @haystack: Input
+ * @needle: Input
  *
  * Return: Always 0
  */
