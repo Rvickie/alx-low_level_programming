@@ -5,9 +5,9 @@
  * @s: Input
  * @c: Input
  *
- * Return: 0 (Success)
+ * Return: Always 0
  */
-char *_strchr(char *c, char *s)
+char *_strchr(char *s, char *c)
 {
 	int j = 0;
 
