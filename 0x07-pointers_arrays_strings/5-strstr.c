@@ -6,22 +6,22 @@
  * @needle: Input
  * @haystack: Input
  *
- * Return: 0 always
+ * Return: Always 0
  */
 char *_strstr(char *haystack, char *needle)
 {
 	for (; *haystack != '\0'; haystack++)
 	{
-		char *h = haystack;
-		char *d = needle;
+		char *l = haystack;
+		char *p = needle;
 
-		while (*h == *d && *d != '\0')
+		while (*l == *p && *p != '\0')
 		{
-			h++;
+			l++;
 
-			d++;
+			p++;
 		}
-		else if (*d == '\0')
+		else if (*p == '\0')
 			return (haystack);
 	}
 
