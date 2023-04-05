@@ -8,14 +8,15 @@
  *
  * Return: memory copied with n bytes changed
  */
-char *_memcpy(char *src, char *dest, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int r = 0;
-	int i = n;
+	int k = 0;
+	int j = n;
 
-	for (; r < i; r++)
+	for (; k < j; k++)
 	{
-		dest[r] = src[r];
+		dest[k] = src[k];
+
 		n--;
 	}
 	return (dest);
