@@ -4,12 +4,12 @@
 /**
  * main - Function that prints the name
  * of the programme
- * @argc: Number of arguements
- * @argv: Array of arguements
+ * @argc: Input
+ * @argv: Input
  *
  * Return: Always 0
  */
-int main(argc __attribute__((unused)), char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", *argv);
 
