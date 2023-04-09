@@ -5,16 +5,14 @@
 /**
  * main - Function that prints minimum number
  * of coins to make change for an amount of money
- * @argc: Input
- * @argv: Input
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
  * Return: 0 (Succcess), 1 (Error)
  */
 int main(int argc, char *argv[])
 {
-	int num;
-	int j;
-	int result;
+	int num, j, result;
 	int coin[] = {25, 10, 5, 2, 1}
 
 	if (argc != 2)
