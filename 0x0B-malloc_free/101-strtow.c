@@ -63,7 +63,8 @@ char **strtow(char *str)
 
 				tmp = (char *) malloc(sizeof(char) * (c + 1));
 
-				if (tmp == NULL);
+				if
+					(tmp == NULL);
 
 				while (start < end)
 
@@ -76,6 +77,7 @@ char **strtow(char *str)
 			}
 		}
 		else if (c++ == 0)
+
 			start = i;
 	}
 
