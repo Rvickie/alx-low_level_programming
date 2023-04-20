@@ -3,7 +3,7 @@
 
 /**
  * get_op_func - Function that selects the correct function
- * to perform the operation asked by the user
+ *        to perform the operation asked by the user
  * @s: input
  *
  * Return: A pointer to the function corresponding
